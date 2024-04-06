@@ -14,16 +14,16 @@ async def must_join_channel(bot: Client, msg: Message):
             await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = f"https://t.me/{MUST_JOIN}"
+                link = f"https://t.me/musik_supportdan"
             else:
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"𝙺𝙰𝚄 𝙹𝙾𝙸𝙽 𝙳𝚄𝙻𝚄 [GROUP KU]({link}) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙰𝙺𝙴𝙺 𝙱𝙾𝚃 𝙺𝚄. 𝙰𝙱𝙸𝚂 𝙹𝙾𝙸𝙽 𝙱𝙰𝚁𝚄 𝙲𝙾𝙱𝙰𝙺 𝙻𝙰𝙶𝙸 /start",
+                    f"𝙺𝙰𝚄 𝙹𝙾𝙸𝙽 𝙳𝚄𝙻𝚄 [GROUP KU](https://t.me/musik_supportdan) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙰𝙺𝙴𝙺 𝙱𝙾𝚃 𝙺𝚄. 𝙰𝙱𝙸𝚂 𝙹𝙾𝙸𝙽 𝙱𝙰𝚁𝚄 𝙲𝙾𝙱𝙰𝙺 𝙻𝙰𝙶𝙸 /start",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ​", url=link)]
+                        [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ​", url=f"https://t.me/Disney_storeDan")]
                     ])
                 )
                 await msg.stop_propagation()
