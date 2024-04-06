@@ -1,7 +1,7 @@
 {
-  "name": "Pyrogram String Session Generator",
+  "name": "Dan String Session Generator",
   "description": "Telegram bot to generate pyrogram string session",
-  "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
+  "logo": "https://telegra.ph//file/01a2da81ad82d6d8b90b7.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -20,12 +20,12 @@
   "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "15"
          },
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/ArmanGG01/karstring",
+  "repository": "https://github.com/Muhamadwildan18/karstring",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -45,12 +45,12 @@
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": ""
+      "value": "6621888094:AAFiXgDSPC2PwFnlU_AqFptimOser6AuJmE"
     },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": true,
-      "value": ""
+      "value": "Disney_storeDan"
     }
   }
 }
