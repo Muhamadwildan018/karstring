@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Muhamadwildan18/karstring",
+  "repository": "https://github.com/Muhamadwildan018/karstring",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
