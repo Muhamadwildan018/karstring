@@ -2,7 +2,7 @@
 
 > A star 🌟 from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/rioprojectx"><img src="https://telegra.ph/file/660357518a3b03ee3b636.jpg" width="2000"></a></p>
+<p align="center"><a href="https://www.github.com/rioprojectx"><img src="https://telegra.ph//file/01a2da81ad82d6d8b90b7.jpg" width="2000"></a></p>
 
 Telegram bot to generate pyrogram and telethon string session.
 
@@ -12,7 +12,7 @@ Telegram bot to generate pyrogram and telethon string session.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ArmanGG01/karstring)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Muhamadwildan18/karstring)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -23,7 +23,7 @@ Telegram bot to generate pyrogram and telethon string session.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/ArmanGG01/karstring
+   git clone https://github.com/Muhamadwildan18/karstring
    ```
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
    
@@ -66,9 +66,9 @@ Telegram bot to generate pyrogram and telethon string session.
 
 ## Support
 
-Channel :- [Project](https://t.me/Karc0de)
+Channel :- [Project](https://t.me/Disney_storeDan)
 
-Group Chat :- [Group support](https://t.me/obrolansuar)
+Group Chat :- [Group support](https://t.me/musik_supportdan)
 
 ## :)
 
