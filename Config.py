@@ -10,8 +10,8 @@ if ENVIRONMENT := os.environ.get('ENVIRONMENT', False):
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', None)
-    if MUST_JOIN.startswith("@"):
-        MUST_JOIN = MUST_JOIN.replace("@", "")
+    if MUST_JOIN.startswith("@musik_supportdan"):
+        MUST_JOIN = MUST_JOIN.replace("@Disney_storeDan", "")
 else:
     # Fill the Values
     API_ID = 0
@@ -20,4 +20,4 @@ else:
     DATABASE_URL = ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
-    MUST_JOIN = MUST_JOIN.removeprefix("@")
+    MUST_JOIN = MUST_JOIN.removeprefix("@Disney_storeDan")
