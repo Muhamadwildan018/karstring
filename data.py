@@ -2,57 +2,52 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("👑 Mulai Membuat string 👑", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("ᴍᴜʟᴀɪ ᴍᴇᴍʙᴜᴀᴛ sᴛʀɪɴɢ", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="🗿 Kembali Ke Awal 🗿", callback_data="home")]
+        [InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("📥 Ini Grup ku  📥", url="https://t.me/obrolansuar")],
+        [InlineKeyboardButton(ᴏᴡɴᴇʀ", url="https://t.me/mhmdwldnnnn")],
         [
-            InlineKeyboardButton("Cara Pakeknya ❔", callback_data="help"),
-            InlineKeyboardButton("📌 Apa Masalah Kau 📌", callback_data="about")
+            InlineKeyboardButton("ʙᴀɴᴛᴜᴀɴ", callback_data="help"),
+            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about")
         ],
-        [InlineKeyboardButton("🤖 Daftar Repo Bot 🤖", url="https://t.me/Karc0de")],
+        [InlineKeyboardButton("ᴅᴀғᴛᴀʀ ᴘᴘ ᴛᴇʟᴇ", url="https://t.me/Disney_storeDan")],
     ]
 
     START = """
-𝙷𝙰𝙻𝙾 {}
-𝚂𝙴𝙻𝙰𝙼𝙰𝚃 𝙳𝙰𝚃𝙰𝙽𝙶 𝙳𝙸 {}
-𝙺𝙰𝙻𝙾 𝙺𝙰𝚄 𝙶𝙰𝙺 𝙿𝙴𝚁𝙲𝙰𝚈𝙰 𝚂𝙰𝙼𝙰 𝙱𝙾𝚃 𝙸𝙽𝙸, 
-1) 𝙶𝙰𝚄𝚂𝙰𝙷 𝙱𝙰𝙲𝙰 𝙿𝙴𝚂𝙰𝙽 𝙸𝙽𝙸 𝙺𝙾𝙽𝚃𝙾𝙻
-2) 𝙱𝙻𝙾𝙺𝙸𝚁 𝙱𝙾𝚃 𝙰𝚃𝙰𝚄 𝙳𝙴𝙻𝙰𝚃𝙴 𝙲𝙷𝙰𝚃 𝙼𝙴𝙼𝙴𝙺
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
+ʜᴇʟʟᴏ {}
+✪ sᴀʏᴀ {} 🤖
 
-By @Karc0de
+ɪɴɪ ᴀᴅᴀʟᴀʜ ʙᴏᴛ sᴛʀɪɴɢ sᴇssɪᴏɴ ʏᴀɴɢ ᴍᴜᴅᴀʜ 
+ᴅɪɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ᴀɴᴅᴀ
     """
 
     HELP = """
-✨ **Available Commands** ✨
+  **𝗟𝗶𝘀𝘁 𝗕𝗮𝗻𝘁𝘂𝗮𝗻**
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/about - Cek
+/help - Cek
+/start - Cek
+/generate - Cek
+/cancel - Cek
+/restart - Cek
 """
 
     ABOUT = """
-**About This Bot** 
+**𝗧𝗲𝗻𝘁𝗮𝗻𝗴 𝗦𝗮𝘆𝗮** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+𝗦𝗮𝘆𝗮 𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 [Dan](https://t.me/mhmdwldnnnn)
 
-Source Code : [Click Here](https://github.com/ArmanGG01/karstring)
+𝗕𝘂𝗮𝘁 𝗟𝘂 𝗬𝗮𝗻𝗴 𝗕𝗮𝗿𝘂 𝗠𝗮𝗲𝗻 𝗧𝗲𝗹𝗲 𝗬𝗮 𝗔𝗻𝗷𝗲𝗻𝗴..
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+Cuma Modal Copas Ya Anjeng, Gua Bukan ProDev Ya Bangsat
 
-Language : [Python](https://www.python.org)
-
-Developer : @PakkPoll
+Maintainer : @mhmdwldnnnn
     """
